@@ -4,7 +4,7 @@ import { Float, PerspectiveCamera, OrbitControls } from "@react-three/drei";
 import * as THREE from "three";
 
 export function Scene() {
-  const groupRef = useRef(null); // ✅ FIXED: Removed TypeScript-like syntax
+  const groupRef = useRef(null);
 
   useFrame((state) => {
     const time = state.clock.getElapsedTime();
@@ -32,8 +32,6 @@ export function Scene() {
       <pointLight position={[-10, -10, -5]} intensity={0.5} color="#4ecdc4" />
 
       <group ref={groupRef}>
-        {" "}
-        {/* ✅ FIXED: Correct ref assignment */}
         <Float
           speed={1.5}
           rotationIntensity={1}
