@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-export const Hero = () => {
+export const HeroContent = () => {
   return (
     <motion.div
       initial={{ opacity: 0, y: -20 }}

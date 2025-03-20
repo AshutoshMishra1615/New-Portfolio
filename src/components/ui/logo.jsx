@@ -33,7 +33,7 @@ const allLogos = [
   { name: "ReactIcon", id: 12, img: ReactIcon },
 ];
 
-export function LogoCarouselDemo() {
+export function Logos() {
   return (
     <div className="y-space-3 py-10">
       <div className="flex justify-center relative text-3xl font-bold text-white ">

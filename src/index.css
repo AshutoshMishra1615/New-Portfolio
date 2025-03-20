@@ -123,3 +123,25 @@
 .canvas {
   touch-action: none;
 }
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-rgb: 10, 10, 10;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(var(--background-rgb));
+  color: rgb(var(--foreground-rgb));
+}
+
+body {
+  min-height: 100vh;
+}
+.dark {
+  color-scheme: dark;
+}
