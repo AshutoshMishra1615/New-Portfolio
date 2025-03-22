@@ -15,7 +15,7 @@ const projectsData = [
     image: "/taskinator.png",
     category: "productivity",
     technologies: ["HTML", "CSS", "JavaScript"],
-    link: "https://ashutoshmishra1615.github.io/Taskinator/",
+    link: "https://taskinatordev.vercel.app/",
     github: "https://github.com/AshutoshMishra1615/Taskinator",
     date: "March 2024",
     features: [
@@ -37,7 +37,7 @@ const projectsData = [
     image: "/memorite.png",
     category: "game",
     technologies: ["HTML", "CSS", "JavaScript"],
-    link: "https://ashutoshmishra1615.github.io/Memorite/",
+    link: "https://memorite.vercel.app/",
     github: "https://github.com/AshutoshMishra1615/Memorite",
     date: "February 2024",
     features: [
@@ -61,7 +61,7 @@ const projectsData = [
     image: "/restaurant-page.png",
     category: "web",
     technologies: ["HTML", "CSS", "JavaScript"],
-    link: "https://ashutoshmishra1615.github.io/Restaurant-Page/",
+    link: "https://restaurant-page-ashutoshmishra1615s-projects.vercel.app",
     github: "https://github.com/AshutoshMishra1615/Restaurant-Page",
     date: "April 2024",
     features: [
